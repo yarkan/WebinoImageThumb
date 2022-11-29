@@ -58,6 +58,7 @@ class ImageThumb
     /**
      * Create a plugin to crop the whitespace surrounding an image
      *
+     * @deprecated
      * @param int $border
      * @param int $color
      * @return Plugins\WhitespaceCropper
@@ -70,6 +71,7 @@ class ImageThumb
     /**
      * Create a beautifull sharpen image
      *
+     * @deprecated
      * @param int $offset
      * @param array $matrix
      * @return Plugins\Sharpen
@@ -82,6 +84,7 @@ class ImageThumb
     /**
      * Create a watermark on image
      *
+     * @deprecated
      * @param PHPThumb $watermarkThumb
      * @param array $position
      * @param float $scale

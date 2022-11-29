@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Webino (https://github.com/webino/)
  *
@@ -9,10 +10,10 @@
 
 namespace WebinoImageThumb;
 
-use Zend\ModuleManager\Feature\ConfigProviderInterface;
+use Laminas\ModuleManager\Feature\ConfigProviderInterface;
 
 /**
- * Image Thumbnailer module for Zend Framework 2
+ * Image Thumbnailer module for Laminas
  */
 class Module implements ConfigProviderInterface
 {
@@ -21,6 +22,6 @@ class Module implements ConfigProviderInterface
      */
     public function getConfig()
     {
-        return include __DIR__ . '/../../config/module.config.php';
+        return include __DIR__ . '/../config/module.config.php';
     }
 }

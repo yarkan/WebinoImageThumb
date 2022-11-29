@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Webino (https://github.com/webino/)
  *
@@ -23,7 +24,7 @@ return [
         'instance' => [
             'alias' => [
                'WebinoImageThumb' => Service\ImageThumb::class,
-           ],
+            ],
         ],
     ],
     'service_manager' => [

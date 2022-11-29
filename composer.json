@@ -4,7 +4,7 @@
     "homepage":    "https://github.com/webino/WebinoImageThumb",
     "type":        "library",
     "license":     "BSD-3-Clause",
-    "keywords":    ["webino", "image", "thumb", "zf2", "zend", "framework"],
+    "keywords":    ["webino", "image", "thumb", "laminas", "framework"],
     "authors": [
         {
             "name":     "Webino, s. r. o.",
@@ -19,7 +19,7 @@
             "role":     "Developer"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "alpha",
     "prefer-stable": false,
     "require": {
         "php": ">=8.1",
@@ -28,19 +28,19 @@
         "laminas/laminas-di": "3.*"
     },
     "require-dev": {
-        "webino/webino-dev": "dev-develop",
-        "webino/webino-debug": "dev-develop",
-        "laminas/laminas-console": "2.*",
         "laminas/laminas-loader": "2.*",
         "laminas/laminas-http": "2.*",
         "laminas/laminas-log": "2.*",
         "laminas/laminas-mvc": "3.*",
-        "laminas/laminas-view": "3.*"
+        "laminas/laminas-view": "2.*"
     },
     "autoload": {
         "psr-4": {"WebinoImageThumb\\": "src/"}
     },
     "extra": {
+        "platform": {
+            "php": "8.1.12"
+        },
         "webino-devkit": {
             "ZendSkeletonApplication": "release-2.2.8"
         }
