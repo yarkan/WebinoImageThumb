@@ -19,13 +19,13 @@
             "role":     "Developer"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "alpha",
     "prefer-stable": true,
     "require": {
         "php": ">=8.1",
         "ext-gd": "*",
-        "phpthumb/phpthumb": "dev-master",
-        "laminas/laminas-di": "3.*"
+        "laminas/laminas-di": "3.*",
+        "phpthumb/phpthumb": "^2.2"
     },
     "require-dev": {
         "laminas/laminas-loader": "2.*",
